@@ -2,4 +2,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap");
+
+/* Navbar */
+
+a {
+  color: #e5e7eb;
+  padding: 10px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+a:hover {
+  transition: all 1s ease;
+  border: 1px solid white;
+  opacity: 1;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 12px;
+}
+
+.nav-container {
+  background-color: #1f2937;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
